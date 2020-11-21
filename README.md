@@ -1,7 +1,7 @@
 # Portfolio
 This is a layout and can be used as a theme for further usage.
 
-**Website: ** [preview](https://sushant20241.github.io/Portfolio/)
+**Website:** [preview](https://sushant20241.github.io/Portfolio/)
 
 # Releases:
 - Nothing released yet!
