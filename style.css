@@ -53,8 +53,11 @@ nav ul li a:hover{
 }
 
 /*  -------------------------------------------
-      Styling dropdown list of MENU option  
+      Styling "dropdown list" of MENU option  
+
+      Menu > Links 
     -------------------------------------------*/
+
 nav ul ul {
     position: absolute;
     left: 250px;
@@ -87,6 +90,8 @@ nav ul .dropdown:hover > ul {
 
 /*  -------------------------------------------
       Styling dropdown list of "Link-3"  
+
+      Menu > Link > Links
     -------------------------------------------*/
 nav ul .dropdown_2 ul{
     position: absolute;
@@ -103,4 +108,20 @@ nav ul .split ul {
     top: 110px;
 }
 
+/*  -------------------------------------------
+             Styling PROFILE PICTURE  
+    -------------------------------------------*/
+.profile_pic {
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+nav center h3{
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 /* --------------------------------------------------------------------------------------- */
