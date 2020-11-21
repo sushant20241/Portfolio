@@ -1,0 +1,106 @@
+/*  -----------------------------
+           NAVIGATION BAR
+    ----------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(to top right, #80cbc4, #e1bee7, #80ddea, #d1c4e9);
+}
+
+/* properties of vertical navbar */
+nav {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.17 );
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+}
+
+/*  -----------------------------
+      Styling options of navbar
+    ----------------------------- */
+
+nav ul li a{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px 30px;
+    height: 50px;
+    transition: .5s ease;
+    border-radius: 0 30px;
+}
+
+nav ul li a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+/*  -------------------------------------------
+      Styling dropdown list of MENU option  
+    -------------------------------------------*/
+nav ul ul {
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    top: 0;
+    display: none;
+    background: rgba(155, 39, 176, .4);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul span{
+    position: absolute;
+    right: 20px;
+    font-size: 1.5em;
+}
+nav ul .dropdown{
+    position: relative;
+}
+
+/*---------- For "Menu > links" ------------*/
+/* nav ul .dropdown:hover ul {
+    display: initial;
+} */
+
+/*---------- For "Menu > link_x > links" ------------*/
+nav ul .dropdown:hover > ul {
+    display: initial;
+}
+
+/*  -------------------------------------------
+      Styling dropdown list of "Link-3"  
+    -------------------------------------------*/
+nav ul .dropdown_2 ul{
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+nav ul .dropdown_2:hover ul {
+    display: initial;
+}
+
+/* Here in ".dropdown_2 split", split is used as class to initiate the dropdown list from where you want by entering its pixels from top */
+nav ul .split ul {
+    top: 110px;
+}
+
+/* --------------------------------------------------------------------------------------- */
