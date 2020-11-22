@@ -58,9 +58,11 @@ nav ul li a:hover{
 
       Menu > Links 
     -------------------------------------------*/
+/* For visibility issue use "position: sticky;" */
 
 nav ul ul {
     position: absolute;
+    /* position: sticky; */
     left: 250px;
     width: 200px;
     top: 0;
@@ -72,11 +74,13 @@ nav ul ul {
 
 nav ul span{
     position: absolute;
+    /* position: sticky; */
     right: 20px;
     font-size: 1.5em;
 }
 nav ul .dropdown{
     position: relative;
+    /* position: sticky; */
 }
 
 /*---------- For "Menu > links" ------------*/
@@ -96,6 +100,7 @@ nav ul .dropdown:hover > ul {
     -------------------------------------------*/
 nav ul .dropdown_2 ul{
     position: absolute;
+    /* position: sticky; */
     left: 200px;
     top: 0;
 }
@@ -178,9 +183,12 @@ nav center h3{
 /*                              -----------------------------
                                         EXPERIENCE PAGE
                                 ----------------------------- */
-
+.experience{
+    margin-top: 6em;
+}
 .experience h1{
     text-align: center;
+    margin-top: 5vh;
 }
 .container{
     display: flex;
@@ -188,7 +196,7 @@ nav center h3{
     align-items: center;
     max-width: 1200px;
     flex-wrap: wrap;
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .container .card{
