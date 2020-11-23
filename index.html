@@ -9,8 +9,18 @@
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Texturina:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
+    
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
+    
+        <!-- -----------------------
+            INSTALLING PRELOADER
+         --------------------------->
+<div id="loader_bg">
+    <div class="loader"></div>
+</div>
 
     <!-- ------------------------
              NAVIGATION BAR 
@@ -122,8 +132,17 @@
         <!-- -------------------
             PORTFOLIO CONTENT
          ---------------------->
-
-
+<section>
+    <h1 style="text-align: center; margin-bottom: 5vh;">PORTFOLIO</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Kb8PG8b-dek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g77WfQ-blxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g77WfQ-blxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g77WfQ-blxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g77WfQ-blxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g77WfQ-blxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g77WfQ-blxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g77WfQ-blxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
 
         <!-- -------------------
             SOFTWARE CONTENT
@@ -146,8 +165,42 @@
        <!-- -------------------
             CONTACT CONTENT
          ---------------------->
-
+        <section>
+            <div class="contact-section">
+                <div class="contact-info">
+                    <div><i class="fas fa-map-marker-alt"></i>Address, City, Country</div>
+                    <div><i class="fas fa-envelope"></i>contact@gmail</div>
+                    <div><i class="fas fa-phone"></i>+91 00000 00000</div>
+                    <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+                </div>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form class="contact" action="" method="post">
+                        <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                        <input type="text" name="email" class="text-box" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <input type="submit" name="submit" class="send-btn" value="send">
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+   <!-- ---------------------------
+             FOOTER CONTENT
+        --------------------------- -->
 
     </div>
+
+
+
+
+
+<script>
+    var loader_bg = document.getElementById("loader_bg");
+    window.addEventListener('load', function () {
+        loader_bg.style.display = 'none';
+    })
+</script>
+
 </body>
 </html>
